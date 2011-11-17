@@ -34,40 +34,6 @@ class PrimeFactors
 		end
 			
 	end
-
-
-	
-
-=begin	def findPrime(value)
-
-		#Take the modulus to determine if there is a remainder
-		temp = @givenValue % @x
-
-		#Base Case
-		#If the number being searched is equal to the index value then
-		#there can no longer be any factors and therefore the current index
-		#must be the highest prime factor
-		if @givenValue == @x
-		
-			return @x
-		elsif temp == 0
-			return findPrime(value/@x)
-		
-			#set the prime factor
-			@givenValue = @givenValue / @x
-			
-			#puts "Prime Factor: " + @x.to_s + " Total: " + @givenValue.to_s
-			@x += 1
-			findPrime
-		else
-		
-			#call function again with lower value
-			@x += 1
-			#puts @x
-			findPrime
-		end
-			end
-=end
 	
 end
  
